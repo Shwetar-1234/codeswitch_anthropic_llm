@@ -7,7 +7,6 @@ import zipfile
 import logging
 import difflib
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     handlers=[
