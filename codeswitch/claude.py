@@ -179,7 +179,6 @@ def main():
                     st.subheader("Converted SQL")
                     st.code(converted_code, language="sql")
             progress_bar.progress((i + 1) / len(uploaded_files))
-
         if converted_files:
             zip_file = create_zip_file(converted_files)
             st.download_button("Download All Converted Files", data=zip_file,
